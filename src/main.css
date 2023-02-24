@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.container{
+  width: 100%;
+  background: #F0E8D8;
+  
+}
+
+.header{
+  width: 90%;
+  margin: 0 auto;
+  background: #E47060;
+  padding: 2rem ;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.header h2{
+  font-size: 3rem;
+}
+.header p{
+  font-size: 1.8rem;
+}
+main{
+  width: 90%;
+  margin: 1rem auto;
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+.spending{
+  font-size: 2.5rem;
+  color: #241C0D;
+}
+.chart-flex{
+  display: flex;
+  width: 80%;
+  margin: 5rem auto 1rem;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+}
+.inner-chart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.mount{
+  display: block;
+  background: #E47060;
+  width: 35px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+.days{
+  font-size: 1.4rem;
+  color: #787D79;
+}
+.mount:hover{
+  background: lightcoral;
+}
+.max:hover{
+  background: lightblue;
+}
